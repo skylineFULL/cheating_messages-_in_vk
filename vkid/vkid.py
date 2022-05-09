@@ -5,22 +5,17 @@ import sys
 from vk_api.longpoll import VkLongPoll, VkEventType
 
 banner = """
-██╗░░░██╗██╗░░██╗███╗░░░███╗░██████╗░██████╗░██████╗░
-██║░░░██║██║░██╔╝████╗░████║██╔════╝██╔════╝██╔════╝░
-╚██╗░██╔╝█████═╝░██╔████╔██║╚█████╗░╚█████╗░██║░░██╗░
-░╚████╔╝░██╔═██╗░██║╚██╔╝██║░╚═══██╗░╚═══██╗██║░░╚██╗
-░░╚██╔╝░░██║░╚██╗██║░╚═╝░██║██████╔╝██████╔╝╚██████╔╝
-░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═════╝░╚═════╝░░╚═════╝░
+
 """
 
-subscribe = "Подписаться на автора в Telegram? (yes/no)"
+subscribe = "Подписаться на автора в vk? (yes/no)"
 
 print(Fore.CYAN + banner)
 print(Fore.CYAN + subscribe)
 choose = input('--> ')
 
 if choose == "yes":
-    os.system("termux-open-url 'https://t.me/TerPackZ'")
+    os.system("termux-open-url 'https://vk.com/antichrist111")
     print("Если вы подписались, перезапустите скрипт и выберите no :)")
 
 else:
