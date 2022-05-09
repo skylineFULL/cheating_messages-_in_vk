@@ -2,7 +2,7 @@
 
 git clone https://github.com/skylineFULL/cheating_messages-_in_vk
 
-cd vkid
+cd cheating_messages-_in_vk 
 
 
 pip install -r requirements.txt &&
